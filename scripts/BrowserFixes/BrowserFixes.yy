@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"BrowserFixes",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"BrowserFixes",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

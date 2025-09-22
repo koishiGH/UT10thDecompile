@@ -1,0 +1,15 @@
+dmg = 8;
+fade = false;
+hairIteration = -1;
+var scale = random_range(1.2, 1.6);
+image_xscale = scale;
+image_yscale = scale;
+image_angle = random(360);
+direction = random(360);
+speed = 1;
+friction = 0.02;
+spinAmount = random_range(2, 10);
+spinDir = choose(-1, 1);
+image_speed = 0;
+image_index = irandom(image_number - 1);
+alarm[0] = 70 + irandom(5);

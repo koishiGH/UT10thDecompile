@@ -1,0 +1,13 @@
+depth = 21;
+ht = 208;
+wd = 200;
+spec = false;
+spriteScale = 0.5;
+start = false;
+buffer = undefined;
+finishedReading = false;
+line = 0;
+spriteWidth = undefined;
+spriteHeight = undefined;
+failsafe = false;
+snd_play(snd_vaporized);
