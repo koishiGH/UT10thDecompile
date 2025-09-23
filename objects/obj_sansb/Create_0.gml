@@ -20,7 +20,8 @@ wd = 120;
 con = 1;
 atcon = 0;
 alarm[4] = 30;
-obj_borderparent.visible = false;
+with (obj_borderparent)
+    visible = false;
 global.mnfight = 99;
 global.myfight = 99;
 global.faceemotion = 0;
@@ -565,7 +566,8 @@ postBattlecontrollerStep = function()
         global.myfight = -1;
         global.mnfight = 2;
         con = 10;
-        obj_borderparent.visible = true;
+        with (obj_borderparent)
+            visible = true;
     }
     
     if (con == 10 && !instance_exists(OBJ_WRITER))
